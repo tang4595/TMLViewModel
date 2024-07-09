@@ -1,9 +1,10 @@
 # TMLViewModel
 
-[![CI Status](https://img.shields.io/travis/tangyinglii/TMLViewModel.svg?style=flat)](https://travis-ci.org/tangyinglii/TMLViewModel)
-[![Version](https://img.shields.io/cocoapods/v/TMLViewModel.svg?style=flat)](https://cocoapods.org/pods/TMLViewModel)
-[![License](https://img.shields.io/cocoapods/l/TMLViewModel.svg?style=flat)](https://cocoapods.org/pods/TMLViewModel)
-[![Platform](https://img.shields.io/cocoapods/p/TMLViewModel.svg?style=flat)](https://cocoapods.org/pods/TMLViewModel)
+TMLViewModel is a Multi-level ViewModel architecture scaffolding under iOS platform.
+
+## Document
+
+[The Project introduction](https://www.jianshu.com/p/c595dd9c5b5a)
 
 ## Example
 
@@ -17,12 +18,8 @@ TMLViewModel is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TMLViewModel'
+pod 'TMLViewModel', :git => 'https://github.com/tang4595/TMLViewModel'
 ```
-
-## Document
-
-[TMLViewModel](https://www.jianshu.com/p/c595dd9c5b5a)
 
 ## Author
 
