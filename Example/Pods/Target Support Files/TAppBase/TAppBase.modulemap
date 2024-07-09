@@ -1,0 +1,6 @@
+framework module TAppBase {
+  umbrella header "TAppBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

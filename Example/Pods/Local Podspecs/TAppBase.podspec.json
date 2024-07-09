@@ -1,0 +1,58 @@
+{
+  "name": "TAppBase",
+  "version": "0.0.1",
+  "summary": "TAppBase.",
+  "description": "TAppBase.",
+  "homepage": "https://www.apple.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tang": "tang@apple.com"
+  },
+  "source": {
+    "git": "https://github.com/tang4595/",
+    "tag": "0.0.1"
+  },
+  "source_files": "TAppBase/Classes/**/*",
+  "resource_bundles": {
+    "TAppBaseResource": [
+      "TAppBase/Assets/*.{xcassets,json,plist}"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+
+    ],
+    "SwifterSwift": [
+
+    ],
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "TPKeyboardAvoiding": [
+
+    ],
+    "RTRootNavigationController": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4"
+  ],
+  "pod_target_xcconfig": {
+    "c": "-Owholemodule"
+  },
+  "swift_version": "5.4"
+}

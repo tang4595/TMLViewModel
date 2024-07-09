@@ -1,0 +1,158 @@
+PODS:
+  - Alamofire (5.7.1)
+  - CryptoSwift (1.7.1)
+  - Differentiator (5.0.0)
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - MJRefresh (3.7.5)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - RTRootNavigationController (0.8.0):
+    - RTRootNavigationController/Core (= 0.8.0)
+  - RTRootNavigationController/Core (0.8.0)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.6.0)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftyJSON (5.0.1)
+  - TAppBase (0.0.1):
+    - RTRootNavigationController
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SwifterSwift
+    - TPKeyboardAvoiding
+  - TMLViewModel (0.0.1)
+  - TNetHttp (0.0.1):
+    - CryptoSwift
+    - FCUUID
+    - Moya (~> 14.0.0)
+    - RxAlamofire (~> 6.1.1)
+    - RxSwift
+    - SwiftyJSON
+    - TAppBase
+    - TUtilExt
+  - TPKeyboardAvoiding (1.3.5)
+  - TUtilExt (0.0.1):
+    - CryptoSwift
+    - MJRefresh
+    - RTRootNavigationController
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SwifterSwift
+    - TAppBase
+    - TPKeyboardAvoiding
+  - UICKeyChainStore (2.1.2)
+
+DEPENDENCIES:
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
+  - SnapKit
+  - SwifterSwift
+  - TAppBase (from `~/Desktop/SourceControl/tang4595/TAppBase`)
+  - TMLViewModel (from `https://github.com/tang4595/TMLViewModel`)
+  - TNetHttp (from `~/Desktop/SourceControl/tang4595/TNetHttp`)
+  - TUtilExt (from `~/Desktop/SourceControl/tang4595/TUtilExt`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - CryptoSwift
+    - Differentiator
+    - FCUUID
+    - MJRefresh
+    - Moya
+    - RTRootNavigationController
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwifterSwift
+    - SwiftyJSON
+    - TPKeyboardAvoiding
+    - UICKeyChainStore
+
+EXTERNAL SOURCES:
+  TAppBase:
+    :path: "~/Desktop/SourceControl/tang4595/TAppBase"
+  TMLViewModel:
+    :git: https://github.com/tang4595/TMLViewModel
+  TNetHttp:
+    :path: "~/Desktop/SourceControl/tang4595/TNetHttp"
+  TUtilExt:
+    :path: "~/Desktop/SourceControl/tang4595/TUtilExt"
+
+CHECKOUT OPTIONS:
+  TMLViewModel:
+    :commit: 5ac43b1ed4460f110a6f047f6beee000a2d5cda1
+    :git: https://github.com/tang4595/TMLViewModel
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  CryptoSwift: d3d18dc357932f7e6d580689e065cf1f176007c1
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  RTRootNavigationController: 36c6301870f0467f89d69f4286795340b537d473
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TAppBase: c88edaffa54e192ef7d531842b0949d4f679184b
+  TMLViewModel: 720811ce93dc82f0ee083b1416bcf3fa7e6e0baa
+  TNetHttp: 10e32ee3e2d7697ce1bd05a6e4064213b63d1fcf
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+  TUtilExt: 4fe59dd68a7f07c15bd793484a99d3e90f552ac1
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+
+PODFILE CHECKSUM: 6454d3167d6a4e0a0e9ab989b71005a3fa877835
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,6 @@
+framework module TNetHttp {
+  umbrella header "TNetHttp-umbrella.h"
+
+  export *
+  module * { export * }
+}

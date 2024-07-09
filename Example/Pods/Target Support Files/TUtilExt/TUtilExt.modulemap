@@ -1,0 +1,6 @@
+framework module TUtilExt {
+  umbrella header "TUtilExt-umbrella.h"
+
+  export *
+  module * { export * }
+}

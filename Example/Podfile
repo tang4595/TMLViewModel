@@ -14,17 +14,10 @@ target 'Example' do
   pod 'SwifterSwift'
   
   # private
-  pod 'TAppBase',     :path => '~/Desktop/SourceControl/tang4595/TAppBase' #todo: 同步迁移到github
-  pod 'TUtilExt',     :path => '~/Desktop/SourceControl/tang4595/TUtilExt' #todo: 同步迁移到github
-  pod 'TNetHttp',     :path => '~/Desktop/SourceControl/tang4595/TNetHttp' #todo: 同步迁移到github
-  pod 'TMLViewModel', :git => 'https://github.com/tang4595/TMLViewModel'   #todo: 同步迁移到github
-  
-  # local
-  pod 'KSSCrash', :path => 'Library/KSSCrash'
-  
-  # debug
-  pod 'KSCrash', :git => "https://github.com/tang4595/KSCrash.git", :configurations => ['Debug']
-  pod 'LookinServer', :configurations => ['Debug']
+  pod 'TAppBase',     :path => '~/Desktop/SourceControl/tang4595/TAppBase'
+  pod 'TUtilExt',     :path => '~/Desktop/SourceControl/tang4595/TUtilExt'
+  pod 'TNetHttp',     :path => '~/Desktop/SourceControl/tang4595/TNetHttp'
+  pod 'TMLViewModel', :git => 'https://github.com/tang4595/TMLViewModel'
 
 end
 

@@ -1,0 +1,38 @@
+{
+  "name": "TMLViewModel",
+  "version": "0.0.1",
+  "summary": "TMLViewModel.",
+  "description": "TMLViewModel.",
+  "homepage": "https://github.com/tang4595/TMLViewModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tang": "tang@apple.com"
+  },
+  "source": {
+    "git": "https://github.com/tang4595/",
+    "tag": "0.0.1"
+  },
+  "source_files": "TMLViewModel/Classes/**/*",
+  "resource_bundles": {
+    "TMLViewModelResource": [
+      "TMLViewModel/Assets/*.{xcassets,json,plist}"
+    ]
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4"
+  ],
+  "pod_target_xcconfig": {
+    "c": "-Owholemodule"
+  },
+  "swift_version": "5.4"
+}

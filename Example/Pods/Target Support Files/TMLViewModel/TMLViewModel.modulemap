@@ -1,0 +1,6 @@
+framework module TMLViewModel {
+  umbrella header "TMLViewModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

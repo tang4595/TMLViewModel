@@ -1,0 +1,22 @@
+${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
+${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework
+${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/TAppBase/TAppBase.framework
+${BUILT_PRODUCTS_DIR}/TMLViewModel/TMLViewModel.framework
+${BUILT_PRODUCTS_DIR}/TNetHttp/TNetHttp.framework
+${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework
+${BUILT_PRODUCTS_DIR}/TUtilExt/TUtilExt.framework
+${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework
