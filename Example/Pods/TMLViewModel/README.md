@@ -20,6 +20,10 @@ it, simply add the following line to your Podfile:
 pod 'TMLViewModel'
 ```
 
+## Document
+
+[TMLViewModel](https://www.jianshu.com/p/c595dd9c5b5a)
+
 ## Author
 
 yltang, 137059428@qq.com

@@ -1,24 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v17-aZ-bzw">
+                                <rect key="frame" x="108.66666666666669" y="384.66666666666669" width="176" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Update Bucket VMs"/>
+                                <connections>
+                                    <action selector="updateTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J9I-Lt-m2q"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bua-g3-OKm">
+                                <rect key="frame" x="99" y="196.66666666666666" width="260" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1S4-Bt-q7J">
+                                <rect key="frame" x="28" y="203" width="53" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8xN-q6-clL">
+                                <rect key="frame" x="101" y="273.66666666666669" width="258" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gxs-6M-6Qo">
+                                <rect key="frame" x="28" y="280" width="55" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BucketVM1's name is: ..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecB-OU-A59">
+                                <rect key="frame" x="28" y="496.66666666666669" width="337" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BucketVM2's name is: ..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yc4-hP-Wes">
+                                <rect key="frame" x="28" y="553" width="337" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gxs-6M-6Qo" firstAttribute="top" secondItem="1S4-Bt-q7J" secondAttribute="bottom" constant="56" id="0Za-V7-v0g"/>
+                            <constraint firstItem="yc4-hP-Wes" firstAttribute="top" secondItem="ecB-OU-A59" secondAttribute="bottom" constant="36" id="1g7-fh-bTZ"/>
+                            <constraint firstItem="ecB-OU-A59" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="5ht-MF-uFU"/>
+                            <constraint firstItem="1S4-Bt-q7J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="5oY-Nn-NEg"/>
+                            <constraint firstItem="ecB-OU-A59" firstAttribute="top" secondItem="v17-aZ-bzw" secondAttribute="bottom" constant="77" id="BNK-zp-3Gd"/>
+                            <constraint firstItem="bua-g3-OKm" firstAttribute="centerY" secondItem="1S4-Bt-q7J" secondAttribute="centerY" id="CHc-VW-53i"/>
+                            <constraint firstItem="v17-aZ-bzw" firstAttribute="top" secondItem="8xN-q6-clL" secondAttribute="bottom" constant="77" id="PW9-cz-Hdj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8xN-q6-clL" secondAttribute="trailing" constant="34" id="PjH-UZ-kq4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yc4-hP-Wes" secondAttribute="trailing" constant="28" id="W8k-pd-vkq"/>
+                            <constraint firstItem="8xN-q6-clL" firstAttribute="leading" secondItem="Gxs-6M-6Qo" secondAttribute="trailing" constant="18" id="X3o-xK-r4g"/>
+                            <constraint firstItem="bua-g3-OKm" firstAttribute="leading" secondItem="1S4-Bt-q7J" secondAttribute="trailing" constant="18" id="egg-pt-YQt"/>
+                            <constraint firstItem="Gxs-6M-6Qo" firstAttribute="leading" secondItem="1S4-Bt-q7J" secondAttribute="leading" id="env-en-tLj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bua-g3-OKm" secondAttribute="trailing" constant="34" id="fc2-cQ-mdP"/>
+                            <constraint firstItem="1S4-Bt-q7J" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="144" id="gv8-If-5Ym"/>
+                            <constraint firstItem="v17-aZ-bzw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ihG-XJ-i6W"/>
+                            <constraint firstItem="yc4-hP-Wes" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="kXV-mo-f6V"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ecB-OU-A59" secondAttribute="trailing" constant="28" id="uDo-al-253"/>
+                            <constraint firstItem="8xN-q6-clL" firstAttribute="centerY" secondItem="Gxs-6M-6Qo" secondAttribute="centerY" id="xrz-nN-YPD"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="name1Label" destination="ecB-OU-A59" id="b3e-VK-ern"/>
+                        <outlet property="name2Label" destination="yc4-hP-Wes" id="cMo-ex-PVd"/>
+                        <outlet property="text1" destination="bua-g3-OKm" id="rhe-sx-ejo"/>
+                        <outlet property="text2" destination="8xN-q6-clL" id="fyN-Dh-9de"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

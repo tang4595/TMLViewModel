@@ -17,7 +17,7 @@ target 'Example' do
   pod 'TAppBase',     :path => '~/Desktop/SourceControl/tang4595/TAppBase'
   pod 'TUtilExt',     :path => '~/Desktop/SourceControl/tang4595/TUtilExt'
   pod 'TNetHttp',     :path => '~/Desktop/SourceControl/tang4595/TNetHttp'
-  pod 'TMLViewModel', :git => 'https://github.com/tang4595/TMLViewModel'
+  pod 'TMLViewModel', :git =>  'https://github.com/tang4595/TMLViewModel'
 
 end
 

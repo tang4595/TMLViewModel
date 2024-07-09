@@ -127,7 +127,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TMLViewModel:
-    :commit: 5ac43b1ed4460f110a6f047f6beee000a2d5cda1
+    :commit: e35fd10c6d2325ce9fd99112eb1d8d047778d0b9
     :git: https://github.com/tang4595/TMLViewModel
 
 SPEC CHECKSUMS:

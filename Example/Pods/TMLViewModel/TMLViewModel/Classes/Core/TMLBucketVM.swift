@@ -12,31 +12,31 @@ fileprivate var BucketNextAssociatedKey: Void?
 
 // MARK: Bucket VM's Delegate
 
-public protocol EMBucketVMCoordinatorProtocol: NSObjectProtocol {
+public protocol TMLBucketVMCoordinatorProtocol: NSObjectProtocol {
     var ioQueue: DispatchQueue? { get }
 }
 
-public extension EMBucketVMCoordinatorProtocol {
+public extension TMLBucketVMCoordinatorProtocol {
     var ioQueue: DispatchQueue? { nil }
 }
 
 
 // MARK: Bucket VM
 
-public protocol EMBucketVM: NSObjectProtocol {
+public protocol TMLBucketVM: NSObjectProtocol {
     /// Next
-    var next: EMBucketVM? { get }
+    var next: TMLBucketVM? { get }
     /// 模块名
     var module: String? { get }
     /// 事件代理
-    var delegate: EMBucketVMCoordinatorProtocol? { get set }
+    var delegate: TMLBucketVMCoordinatorProtocol? { get set }
 }
 
-extension EMBucketVM {
+extension TMLBucketVM {
     
-    public var next: EMBucketVM? { _next }
-    internal var _next: EMBucketVM? {
-        get { objc_getAssociatedObject(self, &BucketNextAssociatedKey) as? EMBucketVM }
+    public var next: TMLBucketVM? { _next }
+    internal var _next: TMLBucketVM? {
+        get { objc_getAssociatedObject(self, &BucketNextAssociatedKey) as? TMLBucketVM }
         set { objc_setAssociatedObject(self, &BucketNextAssociatedKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC) }
     }
     
